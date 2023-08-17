@@ -40,7 +40,7 @@ gpio_t gpioCreate(uint8_t puerto, uint8_t bit) {
   if (self) {
     self->port = puerto;
     self->bit = bit;
-    self->output = false
+    self->output = false;
   }
   return self;
 }
